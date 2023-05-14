@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "nodemon --watch server.ts --exec ts-node server.ts",
     "start": "node server.js",
-    "build": "npm run build-client",
+    "build": "npm install && npm run build-client",
     "build-client": "cd web-app && npm install && npm run build",
     "heroku-postbuild": "npm run build"
   },

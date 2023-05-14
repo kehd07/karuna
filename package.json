@@ -5,7 +5,7 @@
   "engines": {
     "node": "18.16.0"
   },
-  "main": "server.js",
+  "main": "dist/server.js",
   "scripts": {
     "dev": "nodemon --watch server.ts --exec ts-node server.ts",
     "start": "node dist/server.js",

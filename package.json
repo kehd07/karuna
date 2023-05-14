@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Express app with React front-end",
   "engines": {
-    "node": "18.16.0"
+    "node": "18.15"
   },
   "main": "dist/server.js",
   "scripts": {
